@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+        <title>Iniciar Sesión</title>
+        <link rel="stylesheet" href="../../CSS/Formato_Base.css">
+        <link rel="stylesheet" href="../../CSS/estadoLog/Estado_Usuario.css">
+        <link rel="icon" href="../../Imagenes/logoProyect/Logo_Principal.png">
+    </head>
+    <body>
+<!--===============================================================================================================-->
+        <header>
+            <section class="Barra_Navegacion">
+                <section class="Inicio">
+                </section>
+                <nav id="menu">
+                    <ul>
+                        <a href="../../index.html" > <img src="../../Imagenes/logoProyect/Logo_Principal.png" class="Logo_Menú"></a>
+                            <h1 class="titulo">Trascendental</h1>
+                        <li><a href="../Contactanos.html" class="menu">Contactanos</a></li>
+                        <li><a href="../Nosotros.html">Quienes Somos</a></li>
+                        <li><a href="Inicio_Sesión.html" class="menu">Inicia Sesión</a></li>
+                        <li><a href="../../index.html" class="menu">Inicio</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+<!--===============================================================================================================-->
+        <section class="contenido">
+            <center>
+                <section class="Inicio_Sesión">
+                    <section id="Contenido_Inicio_Sesión">
+                        <center>
+                            <form action="../php/login.php" method="POST">
+                            <h2>Inicia Sesión</h2>
+                            <input class="controls" type="text" name="documento" id="documento" placeholder="Ingrese su número de indentificación"><br>
+                            <input class="controls" type="password" name="pass" id="contraseña" placeholder="Ingrese su contraseña"><br>
+                            <input class="controls" type="text" name="tipoRol" id="contraseña" placeholder="tipo de Rol"><br>
+                            <p style="border-bottom: 1px solid white; padding-bottom: 1.5%;"><a href="Olvide_Contraseña.html">Olvidé mi contraseña</a></p>
+                            <p>Ingresar como</p>
+                            <div>
+                                <a href="logTrue/recursosHumanos/aspirantes.html"><button class="botons">Recursos Humanos </button></a>
+                                <a href="logTrue/aspirantes/Perfil_Aspirante.html"><button class="botons">Perfil Aspirantes</button></a>
+                            </div>
+                            <p><a href="Registro.html">Registrarse</a></p>
+                        </form>
+                        </center>
+                    </section>
+                </section>
+            </center>
+        </section>
+<!--===============================================================================================================-->
+<footer class="info_empres">
+    <ul>
+        <center><h4>Disser Ingieniería S.A.S. Bogotá</h4></center>
+        <center>
+            <div class="left">
+                <li class="ubicación">Dirección: Calle 169 # 20-06</li>
+                <li class="contacto">Tel: (1)7042440</li>
+            </div>
+            <div class="right">
+                <li class="actividad">Actividad: Contratación en Obras Cíviles</li>
+            </div>
+        </center>
+    </ul>
+    <section class="copyright">
+        <center><p>© Copyright. Todos los derechos reservados - 2021</p></center>
+    </section>
+</footer>
+<!--===============================================================================================================-->
+    </body>
+</html>

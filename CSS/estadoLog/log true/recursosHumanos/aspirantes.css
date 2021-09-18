@@ -1,0 +1,174 @@
+#Barra_Herramientas {
+    margin-top: 3.55%;
+    float: right;
+    border-top: 2px solid rgba(160, 43, 0, 0.9);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-family: sans-serif;
+}
+ul, ol {
+    list-style:none;
+}
+.Herramientas > li {
+    float: right;
+}
+.Herramientas li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 15px;
+    display: block;
+}
+.Herramientas li input {
+    width: 75%;
+    padding: 3% 6%;
+    margin: 6% 3%;
+    border-radius: 3%;
+    border: 2px groove #17202A;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.Herramientas li input:hover {
+    background-color: #E5E8E8;
+    border: 2px groove #E9BD15;
+}
+.Herramientas li a:hover {
+    background-color: #E9BD15;
+    color: black;
+}
+.Herramientas li ul {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+.Herramientas li:hover > ul {
+    display: block;
+}
+.Herramientas li ul li {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+/*-----------------------------------------------*/
+.contenido {
+    padding-top: 7%;
+    padding-bottom: 3%;
+    background-color: #E5E8E8;
+}
+.Perfil_Aspirante {
+    border-radius: 5px;
+    width: 90%;
+    background-color: white;
+    margin: 1.5% 3%;
+    padding: 1.8%;
+    box-shadow: 0px 0px 10px rgb(49, 48, 48);
+}
+.Logo_Usuario {
+    border-radius: 200px;
+    background-color: #BFC9CA;
+    width: 15%;
+}
+.Documentos_Aspirante p a {
+    font-family: sans-serif;
+    font-size: 100%;
+    color: black;
+    text-decoration: none;
+}
+.Documentos_Aspirante p a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 0px 0px 1px gray;
+}
+.Documentos_Aspirante {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin: -16% 16%;
+    padding: 1%;
+}
+.Boton_Documento {
+    width: 100%;
+    height: auto;
+    margin: 1% 0%;
+    padding: 1% 3%;
+    border-radius: 10px;
+    border: 2px groove #2ecc70e0;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 120%;
+}
+#Documento_1P {
+    border: 2px groove #F1948A;
+}
+#Documento_1P:hover {
+    border: 2px groove #F1948A;
+    background-color: #FADBD8;
+}
+.Boton_Documento:hover {
+    background-color: #D1F2EBe0;
+}
+.Comentarios {
+    float: right;
+    width: 40%;
+    margin: -17% 0%;
+    padding: 1%;
+}
+#Comentario {
+    width: 100%;
+    margin: 0% -3%;
+    height: auto;
+    padding: 2%;
+    font-family: sans-serif;
+    font-size: 110%;
+    border-radius: 5px;
+}
+#Comentario:hover {
+    background-color: #EAEDED;
+    box-shadow: 0px 0px 3px gray;
+}
+#Comentario:focus {
+    border: 2px groove rgba(0, 0, 128, 0.2);
+}
+.botons {
+    float: inline-end;
+    margin-top: 1.5%;
+    margin-left: 1%;
+    padding: 0.8% 2.5%;
+    z-index: auto;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 110%;
+    
+    border-radius: 6px;
+}
+input:hover {
+    background-color: #EAEDED;
+    box-shadow: 0px 0px 2px gray;
+}
+/*-------------------------------------*/
+#Fondo {
+    position: relative;
+    float: left;
+    overflow: none;
+    width: 100%;
+    height: auto;
+    filter: blur(4px);
+    z-index: -1;
+}
+.Info_Graficas {
+    position: absolute;
+    width: 60%;
+    margin: 27% 20% 0% 20%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 10px gray;
+    font-size: 200%;
+    font-family: sans-serif;
+    color: rgb(75, 75, 75);
+}
+.Contenido_Graficos{
+    padding: 0% 0% 5% 0%;
+}
+.Graficos {
+    margin: 5% 0% 0% 0%;
+    width: 60%;
+}

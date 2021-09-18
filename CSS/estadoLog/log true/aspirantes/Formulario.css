@@ -1,0 +1,192 @@
+/*.sub_menu{
+    padding-top: 3.5%;
+    width: 100%;
+}
+#Tipo_Formularios {
+    float: right;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.9);
+    font-family: sans-serif;
+}
+ul, ol {
+    list-style: none;
+}
+.form1 > li {
+    float: right;
+}
+.form1 li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 15px;
+    display: block;
+}
+.form1 li ul {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+.form1 li a:hover {
+    background-color: #E9BD15;
+    color: black;
+}
+.form1 li:hover > ul {
+    display: block;
+}
+.form1 li ul li {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.9);
+}*/
+/*---------------------------------------------*/
+.contenido {
+    padding: 3% 0%;
+}
+.Introducción {
+    margin: 2% 15%;
+    padding: 1.5%;
+    width: 70%;
+    font-family: sans-serif;
+    font-size: 100%;
+}
+.Introducción h2 {
+    text-align: center;
+    font-size: 600%;
+    margin-bottom: 2%;
+}
+.Introducción p {
+    font-size: 260%;
+}
+.Formulario_covid-19 {
+    margin: 0% 20%;
+    padding: 2%;
+    width: 60%;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px grey;
+    font-family: sans-serif;
+}
+h3 {
+    font-size: 200%;
+    margin: 0.5% 0%;
+    padding: 0.5% 0%;
+}
+.Información_Personal {
+    border-bottom: 2px solid gray;
+}
+.Información_Personal h3 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+form {
+    margin: 0.5% 0%;
+    padding: 0.5% 0%;
+}
+.controls {
+    margin: 0.5% 0.7%;
+    padding: 0.5% 0.7%;
+    display: inline-block;
+    width: 46%;
+    border-radius: 4px;
+    font-size: 110%;
+}
+.controls:hover {
+    box-shadow: 0px 0px 8px grey;
+}
+#Tipo_de_Documento {
+    width: 48%;
+}
+.Síntomas {
+    border-bottom: 2px solid gray;
+}
+form p {
+    width: 95%;
+    margin: 1.5% 1%;
+}
+form p input {
+    margin-right: 0.5%;
+}
+.Derecha {
+    float: right;
+    width: 49%;
+}
+#Izquierda {
+    display: inline-block;
+    width: 49%;
+}
+.Formulario_covid-19 h4 {
+    font-size: 130%;
+    font-weight: lighter;
+    color: #212F3D;
+}
+.Formulario_covid-19 p {
+    font-size: 120%;
+    color: #2C3E50;
+}
+.Antecedentes_Enfermedades {
+    margin: 1.5% 0%;
+    padding: 1.5% 0%;
+    border-bottom: 2px solid gray;
+}
+.Contacto_10_Días {
+    margin: 1.5% 0%;
+    padding: 1.5% 0%;
+    border-bottom: 2px solid gray;
+}
+.Contacto_10_Días .Derecha {
+    width: 4%;
+    float: none;
+    display: inline-block;
+}
+.Contacto_10_Días #Izquierda {
+    width: 4%;
+}
+.Advertencia {
+    margin: 1.5% 0%;
+    padding: 1.5% 0%;
+    border-bottom: 2px solid gray;
+}
+.Familiares {
+    margin: 1.5% 0%;
+    padding: 1.5% 0%;
+    border-bottom: 2px solid gray;
+}
+.Ubicación_Muestra {
+    border-bottom: 2px solid gray;
+}
+.Ubicación_Muestra .Derecha {
+    width: 21.5%;
+    float: none;
+    display: inline-block;
+}
+.Ubicación_Muestra #Izquierda {
+    width: 15%;
+}
+.botons {
+    margin: 2% 45%;
+    padding: 1% 2%;
+    width: 10%;
+    border-radius: 4px;
+    border: 2px groove gray;
+    font-size: 110%;
+}
+.botons:hover {
+    box-shadow: 0px 0px 10px gray;
+    font-weight: bolder;
+}
+/*----------------------------------*/
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.897);
+}
+footer ul {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+footer ul li {
+    padding-left: 10px;
+}
+.copyright {
+    color: black;
+    padding: 4px;
+    background-color: #e7f521;
+    text-align: center;
+}

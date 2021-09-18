@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(212, 212, 211);
+}
+.contenido {
+    font-family: sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+form {
+    width: 70%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px gray;
+    padding: 3% 2%;
+    margin: 5% 12.5%;
+}
+form h2 {
+    font-size: 250%;
+    margin-bottom: 1%;
+}
+form p {
+    font-size: 120%;
+}
+form input {
+    font-size: 120%;
+}
+.agendar {
+    position:relative;
+    width: 35%;
+    padding: 10px;
+    color: black;
+}
+.controls { 
+    margin: 1.5% 0%;
+    padding: 1%;
+    width: 47.1%;
+    border-radius: 4px;
+    display: inline-block;
+    /*float: left;*/
+    text-shadow: rgb(122, 62, 62);  
+}
+#Seleccion {
+    width: 49.5%;
+}
+.controls:hover, .botons:hover {
+    box-shadow: 0px 0px 5px gray;
+}
+div .controls {
+    width: 30.5%;
+}
+.botons {
+    padding: 0.5% 2%;
+    float: inline-end;
+    border-radius: 4px;
+}
+#Comentarios {
+    display: initial;
+    width: 97%;
+}

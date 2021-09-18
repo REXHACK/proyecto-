@@ -1,0 +1,129 @@
+#Tipo_Contrato {
+    margin-top: -0.31%;
+    float: right;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.9);
+    font-family: sans-serif;
+}
+ul, ol {
+    list-style:none;
+}
+.Contratos > li {
+    float: right;
+}
+.Contratos li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 15px;
+    display: block;
+}
+.Contratos li ul {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+.Contratos li a:hover {
+    background-color: #E9BD15;
+    color: black;
+}
+.Contratos li:hover > ul {
+    display: block;
+}
+.Contratos li ul li {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+/*-------------------------------------------------*/
+.Inicio_Contratos {
+    width: 100%;
+    height: auto;
+}
+#Titulo_Contrato {
+    position: absolute;
+    width: 40%;
+    margin: -52% 29% 0% 29%;
+    padding: 2%;
+    /*border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px black;*/
+    font-size: 350%;
+    font-family: sans-serif;
+    color: black;
+    text-shadow: 11px 7px 5px gray;
+}
+.contenido {
+    margin-bottom: 25%;
+}
+.Contrato {
+    margin: 6.5% 2.4%;
+    padding: 2.5%;
+    float: right;
+    width: 39%;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px goldenrod;
+}
+.controls {
+    margin: 1% 0%;
+    padding: 1% 2%;
+    width: 94.5%;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 120%;
+}
+.controls:hover {
+    box-shadow: 0px 0px 5px grey;
+}
+.controls:focus {
+    border: 2px solid gold;
+}
+.DirecciónC {
+    margin-top: 1%;
+    padding-top: 1%;
+    border-top: 2px solid gray;
+}
+.DirecciónC .controls {
+    width: 29.5%;
+}
+#CiudadR {
+    width: 120%;
+}
+.DirecciónCll {
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    border-bottom: 2px solid gray;
+}
+.DirecciónCll .controls {
+    width: 20.4%;
+}
+.contenido p {
+    font-family: sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+}
+#Numeral {
+    display: inline-block;
+}
+#Tipo_de_Identificación {
+    width: 99.5%;
+}
+.botons {
+    width: auto;
+    margin-top: 2%;
+    margin-right: 1.4%;
+    padding: 1% 2%;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size: 100%;
+    float: inline-end;
+}
+.botons:hover {
+    box-shadow: 0px 0px 5px grey;
+}
+h2 {
+    text-align: center;
+    margin: 5% 0% 0% 0%;
+    font-size: auto 300%;
+}
+.contrato1 { 
+    width: 50%;
+}
